@@ -1,0 +1,84 @@
+h1, h2 {
+    text-align: center;
+    color: blue;
+}
+
+.button:hover {
+    background-color: blue;
+    color: aliceblue;
+}
+
+.input:focus {
+    background-color: grey;
+    color: white;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+}
+
+.list_item {
+    padding: 7px;
+    border: 3px solid #283030;
+    margin-bottom: 7px;
+}
+
+.list_item:first-child {
+    background-color: #e8e1eb;
+    font-weight: bold;
+}
+
+.list_item:last-child {
+    background-color: cornsilk;
+    font-size: 20px;
+}
+
+.block {
+    padding: 10px;
+    margin-bottom: 7px;
+    border: 1px solid black;
+}
+
+
+.block:hover {
+    background-color: #283030;
+    color: #cbe6e6;
+}
+
+.link:hover {
+    background-color: aqua;
+    color: black;
+}
+
+.link:focus {
+    background-color: rgb(160, 126, 41);     /*     Работает корректно*/
+    color: white;
+}
+
+.block:nth-child(odd) {
+    background-color: blue;
+    color: white;
+}
+
+.element {
+    background-color: aqua;
+    color: #333838;
+    padding: 10px;
+    margin-bottom: 7px;
+    border: 3px rgb(64, 60, 60);
+    border-style: double;
+}
+
+.element:first-child:hover {
+    background-color: green;
+    font-weight: bolder;
+    color: white;
+}
+
+.element:last-child:hover {
+    background-color: black;
+    color: white;
+}
+/*Псевдоклассы в CSS используются для задания стилей элементам в зависимости от их состояния или позиции в документа. Псевдоклассы начинаются с двоеточия (:) и не влияют на содержимое HTML.
+Также одно из главных преимуществ это динамичное изменение стилей*/
